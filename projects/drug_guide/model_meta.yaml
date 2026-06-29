@@ -1,0 +1,20 @@
+model:
+  name: Drug Prescription Assistant
+  version: '1.0'
+  trained_on: '2026-06-28'
+  accuracy: 0.9833333333333333
+  dataset: IBM Drug200 Dataset — 200 patients with the same illness
+  algorithm: Decision Tree (entropy criterion, max_depth=4)
+  notes: 'Model trained on 200 clinical cases where patients responded to one of five
+    drugs. Features: Age, Sex, Blood Pressure, Cholesterol, and Sodium/Potassium ratio.
+    Na/K ratio is the strongest predictor.'
+  warnings:
+  - This tool is intended to support, not replace, clinical judgment.
+  - Validate recommendations against current clinical guidelines.
+  - Dataset limited to 200 patients — use with caution in edge cases.
+  drugs:
+    drugA: Indicated based on 1 decision path(s) in the model.
+    drugB: Indicated based on 1 decision path(s) in the model.
+    drugC: Indicated based on 1 decision path(s) in the model.
+    drugX: Indicated based on 2 decision path(s) in the model.
+    drugY: Indicated based on 1 decision path(s) in the model.
